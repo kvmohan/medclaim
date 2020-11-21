@@ -76,19 +76,19 @@
 		</dependency>
 	</dependencies>
 	<scm>
-        <connection>scm:https://github.com/baikunthar/mediclaim.git</connection>
-        <url>https://github.com/baikunthar/mediclaim.git</url>
-        <developerConnection>scm:git:https://github.com/baikunthar/mediclaim.git</developerConnection>
+        <connection>scm:https://github.com/kvmohan/medclaim.git</connection>
+        <url>https://github.com/baikunthar/medclaim.git</url>
+        <developerConnection>scm:git:https://github.com/kvmohan/medclaim.git</developerConnection>
       <tag>HEAD</tag>
       </scm>
 	<distributionManagement>
 		<snapshotRepository>
 			<id>nexus</id>
-			<url>http://13.127.41.17:8081/nexus/content/repositories/snapshots</url>
+			<url>http://http://34.204.166.141:8081/nexus/content/repositories/snapshots</url>
 		</snapshotRepository>
 		<repository>
              <id>nexus</id>
-             <url>http://13.127.88.103:8081/nexus/content/repositories/releases</url>
+             <url>http://http://34.204.166.141:8081/nexus/content/repositories/releases</url>
        	     </repository>
 	</distributionManagement>
 	<build>
@@ -134,7 +134,7 @@
 		<artifactId>maven-release-plugin</artifactId>
 		<version>3.0.0-M1</version>
                 <configuration>
-		    <tagBase>https://github.com/baikunthar/mediclaim.git/tag</tagBase>
+		    <tagBase>https://github.com/kvmohan/medclaim.git/tag</tagBase>
                      <releaseProfiles>release</releaseProfiles>
                     <autoVersionSubmodules>true</autoVersionSubmodules>
                     <pushChanges>false</pushChanges>
