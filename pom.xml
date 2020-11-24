@@ -77,18 +77,18 @@
 	</dependencies>
 	<scm>
         <connection>scm:https://github.com/kvmohan/medclaim.git</connection>
-        <url>https://github.com/baikunthar/medclaim.git</url>
+        <url>https://github.com/kvmohan/medclaim.git</url>
         <developerConnection>scm:git:https://github.com/kvmohan/medclaim.git</developerConnection>
       <tag>HEAD</tag>
       </scm>
 	<distributionManagement>
 		<snapshotRepository>
 			<id>nexus</id>
-			<url>http://107.20.243.101:8081/nexus/content/repositories/snapshots</url>
+			<url>http://54.205.149.229:8081/nexus/content/repositories/snapshots</url>
 		</snapshotRepository>
 		<repository>
              <id>nexus</id>
-             <url>http://107.20.243.101:8081/nexus/content/repositories/releases</url>
+             <url>http://54.205.149.229:8081/nexus/content/repositories/releases</url>
        	     </repository>
 	</distributionManagement>
 	<build>
@@ -121,7 +121,7 @@
         		    <artifactId>flyway-maven-plugin</artifactId>
 			    <version>6.4.4</version>
 			    <configuration>
-                              <url>jdbc:mysql://3.231.217.245:3306</url>
+                              <url>jdbc:mysql://54.205.149.229:3306</url>
                               <user>claimuser1</user>
 		              <password>H@ckath0n</password>
 			      <schemas>
