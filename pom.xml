@@ -9,7 +9,7 @@
 	</parent>
 	<groupId>com.strikers</groupId>
 	<artifactId>medclaim</artifactId>
-	<version>0.0.13-SNAPSHOT</version>
+	<version>1.0.0</version>
 	<name>medclaim</name>
 	<description>Demo project for Spring Boot</description>
 
