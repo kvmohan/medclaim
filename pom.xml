@@ -92,21 +92,11 @@
 
 		<snapshotRepository>
 			<id>nexus</id>
-<<<<<<< HEAD
                         <name>medclaim Snapshots Nexus Repository</name>
 			<url>http://54.205.149.229:8081/vamsitech/repository/medclaim-snapshot/</url>
 		</snapshotRepository>
-
-=======
-			<url>http://54.205.149.229:8081/repository/maven-snapshots/</url>
-		</snapshotRepository>
-		<repository>
-             <id>nexus</id>
-             <url>http://54.205.149.229:8081/repository/maven-releases/</url>
-       	     </repository>
->>>>>>> 9bd5f34acfe31b77bb1cdca13c5acaa217ccd4c4
-	</distributionManagement>
-	<build>
+          </distributionManagement>
+         	<build>
 		<plugins>
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
