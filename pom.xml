@@ -82,14 +82,18 @@
       <tag>HEAD</tag>
       </scm>
 	<distributionManagement>
+            <repository>
+                 <id>nexus</id>
+                 <name>medclaim Releases Nexus Repository</name>
+                 <url>http://54.205.149.229:8081/vamsitech/repository/medclaim-releases/</url>
+             </repository>
+
 		<snapshotRepository>
 			<id>nexus</id>
-			<url>http://54.205.149.229:8081/nexus/content/repositories/snapshots</url>
+                        <name>medclaim Snapshots Nexus Repository</name>
+			<url>http://54.205.149.229:8081/vamsitech/repository/medclaim-snapshot/</url>
 		</snapshotRepository>
-		<repository>
-             <id>nexus</id>
-             <url>http://54.205.149.229:8081/nexus/content/repositories/releases</url>
-       	     </repository>
+
 	</distributionManagement>
 	<build>
 		<plugins>
