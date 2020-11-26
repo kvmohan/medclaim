@@ -8,14 +8,16 @@
 		<relativePath /> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.strikers</groupId>
-	<artifactId>mediclaim</artifactId>
+	<artifactId>medclaim</artifactId>
 	<version>0.0.13-SNAPSHOT</version>
-	<name>mediclaim</name>
+	<name>medclaim</name>
 	<description>Demo project for Spring Boot</description>
 
 	<properties>
 		<java.version>1.8</java.version>
 		<sonar.coverage.exclusions>**mediclaim/*,**/config/*,**/entity/*,**/dto/*,**/repository/*,**/exception/*,**/util/*</sonar.coverage.exclusions>
+		<!--<sonar.host.url>http://54.205.149.229:9000/</sonar.host.url>
+		sonar.login>eb1254b403ad4705a706973224f519653d97daee</sonar.login> -->
 	</properties>
 
 	<dependencies>
@@ -90,10 +92,19 @@
 
 		<snapshotRepository>
 			<id>nexus</id>
+<<<<<<< HEAD
                         <name>medclaim Snapshots Nexus Repository</name>
 			<url>http://54.205.149.229:8081/vamsitech/repository/medclaim-snapshot/</url>
 		</snapshotRepository>
 
+=======
+			<url>http://54.205.149.229:8081/repository/maven-snapshots/</url>
+		</snapshotRepository>
+		<repository>
+             <id>nexus</id>
+             <url>http://54.205.149.229:8081/repository/maven-releases/</url>
+       	     </repository>
+>>>>>>> 9bd5f34acfe31b77bb1cdca13c5acaa217ccd4c4
 	</distributionManagement>
 	<build>
 		<plugins>
