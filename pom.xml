@@ -87,13 +87,13 @@
             <repository>
                  <id>nexus</id>
                  <name>medclaim Releases Nexus Repository</name>
-                 <url>http://54.205.149.229:8081/repository/medclaim-releases/</url>
+                 <url>http://34.232.78.150/repository/medclaim-releases/</url>
              </repository>
 
 		<snapshotRepository>
 			<id>nexus</id>
                         <name>medclaim Snapshots Nexus Repository</name>
-			<url>http://54.205.149.229:8081/repository/medclaim-snapshot/</url>
+			<url>http://34.232.78.150/repository/medclaim-snapshots/</url>
 		</snapshotRepository>
           </distributionManagement>
          	<build>
