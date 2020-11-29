@@ -87,13 +87,13 @@
             <repository>
                  <id>nexus</id>
                  <name>medclaim Releases Nexus Repository</name>
-                 <url>http://3.238.226.205:8081/repository/mediclaim-releases/</url>
+                 <url>http://34.236.199.149:8081/repository/mediclaim-releases/</url> 
              </repository>
 
 		<snapshotRepository>
 			<id>nexus</id>
                         <name>medclaim Snapshots Nexus Repository</name>
-			<url>http://3.238.226.205:8081/repository/mediclaim-snapshots/</url>
+			<url>http://34.236.199.149:8081/repository/mediclaim-snapshots/</url>
 		</snapshotRepository>
           </distributionManagement>
          	<build>
@@ -126,7 +126,7 @@
         		    <artifactId>flyway-maven-plugin</artifactId>
 			    <version>6.4.4</version>
 			    <configuration>
-                              <url>jdbc:mysql://3.238.226.205:3306</url>
+                              <url>jdbc:mysql://34.236.199.149:3306</url>
                               <user>claimuser1</user>
 		              <password>H@ckath0n</password>
 			      <schemas>
